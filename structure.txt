@@ -1,0 +1,80 @@
+=== Root Directory ===
+.
+├── README.md
+├── app
+│   ├── global-error.jsx
+│   ├── globals.css
+│   ├── layout.tsx
+│   ├── page.tsx
+│   └── provider.tsx
+├── components
+│   ├── Approach.tsx
+│   ├── Clients.tsx
+│   ├── Experience.tsx
+│   ├── Footer.tsx
+│   ├── Grid.tsx
+│   ├── Hero.tsx
+│   ├── MagicButton.tsx
+│   └── RecentProjects.tsx
+├── components.json
+├── data
+│   ├── confetti.json
+│   ├── globe.json
+│   └── index.ts
+├── lib
+│   └── utils.ts
+├── next-env.d.ts
+├── next.config.mjs
+├── package-lock.json
+├── package.json
+├── postcss.config.js
+├── public
+│   ├── app.svg
+│   ├── appName.svg
+│   ├── b1.svg
+│   ├── b4.svg
+│   ├── b5.svg
+│   ├── bg.png
+│   ├── c.svg
+│   ├── cloud.svg
+│   ├── cloudName.svg
+│   ├── confetti.gif
+│   ├── dock.svg
+│   ├── dockerName.svg
+│   ├── exp1.svg
+│   ├── exp2.svg
+│   ├── exp3.svg
+│   ├── exp4.svg
+│   ├── fm.svg
+│   ├── footer-grid.svg
+│   ├── git.svg
+│   ├── grid.svg
+│   ├── gsap.svg
+│   ├── host.svg
+│   ├── hostName.svg
+│   ├── insta.svg
+│   ├── jsm-logo.png
+│   ├── link.svg
+│   ├── next.svg
+│   ├── p1.svg
+│   ├── p2.svg
+│   ├── p3.svg
+│   ├── p4.svg
+│   ├── profile.svg
+│   ├── re.svg
+│   ├── s.svg
+│   ├── stream.svg
+│   ├── streamName.svg
+│   ├── tail.svg
+│   ├── three.svg
+│   ├── ts.svg
+│   ├── twit.svg
+│   └── wha.svg
+├── sentry.client.config.ts
+├── sentry.edge.config.ts
+├── sentry.server.config.ts
+├── structure.txt
+├── tailwind.config.ts
+└── tsconfig.json
+
+6 directories, 71 files

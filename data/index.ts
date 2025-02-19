@@ -8,7 +8,7 @@ export const navItems = [
 export const gridItems = [
   {
     id: 1,
-    title: "I prioritize client collaboration, fostering open communication ",
+    title: "I prioritize client collaboration, fostering open communication.",
     description: "",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
@@ -18,7 +18,7 @@ export const gridItems = [
   },
   {
     id: 2,
-    title: "I'm very flexible with time zone communications",
+    title: "I'm highly flexible with time zone communications.",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
@@ -29,7 +29,7 @@ export const gridItems = [
   {
     id: 3,
     title: "My tech stack",
-    description: "I constantly try to improve",
+    description: "Constantly evolving and improving.",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
     titleClassName: "justify-center",
@@ -38,7 +38,7 @@ export const gridItems = [
   },
   {
     id: 4,
-    title: "Tech enthusiast with a passion for development.",
+    title: "Building AI-driven software solutions for real-world impact.",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
@@ -46,11 +46,10 @@ export const gridItems = [
     img: "/grid.svg",
     spareImg: "/b4.svg",
   },
-
   {
     id: 5,
-    title: "Currently building a JS Animation library",
-    description: "The Inside Scoop",
+    title: "Currently refining predictive analytics for real estate investment.",
+    description: "Enhancing market analysis with AI models.",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
     titleClassName: "justify-center md:justify-start lg:justify-center",
@@ -59,8 +58,8 @@ export const gridItems = [
   },
   {
     id: 6,
-    title: "Do you want to start a project together?",
-    description: "",
+    title: "Interested in working together?",
+    description: "Let's collaborate on your next project.",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
     titleClassName: "justify-center md:max-w-full max-w-60 text-center",
@@ -72,132 +71,114 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "3D Solar System Planets to Explore",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-    img: "/p1.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "/ui.earth.com",
+    title: "Vrolio STR Predictive Pricing Model",
+    des: "Developed an AI-powered pricing model for short-term rentals, optimizing nightly rates based on occupancy trends, seasonality, market conditions, and listing features. Used ClickHouse for rapid querying and FastAPI for model deployment.",
+    img: "/vrolio-pricing.svg",
+    iconLists: ["/python.svg", "/fastapi.svg", "/clickhouse.svg", "/pandas.svg"],
+    link: "/vrolio-ai-pricing",
   },
   {
     id: 2,
-    title: "Yoom - Video Conferencing App",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-    img: "/p2.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "/ui.yoom.com",
+    title: "Vrolio LTR Market Intelligence System",
+    des: "Built a long-term rental (LTR) analytics platform that aggregates rental price trends, vacancy rates, and property valuation insights. Integrated with ClickHouse for scalable data storage and API-driven real-time insights.",
+    img: "/ltr-market.svg",
+    iconLists: ["/clickhouse.svg", "/fastapi.svg", "/pandas.svg", "/react.svg"],
+    link: "/ltr-market-intelligence",
   },
   {
     id: 3,
-    title: "AI Image SaaS - Canva Application",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-    img: "/p3.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "/ui.aiimg.com",
+    title: "Vrolio STR Occupancy Rate Prediction Model",
+    des: "Engineered a machine learning model that predicts short-term rental occupancy rates using historical booking trends, listing details, and competitive market data. Deployed via FastAPI and monitored for model drift.",
+    img: "/occupancy-prediction.svg",
+    iconLists: ["/tensorflow.svg", "/scikit-learn.svg", "/pandas.svg", "/fastapi.svg"],
+    link: "/occupancy-prediction",
   },
   {
     id: 4,
-    title: "Animated Apple Iphone 3D Website",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-    img: "/p4.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "/ui.apple.com",
+    title: "Automated Real Estate Data Pipeline (Vrolio)",
+    des: "Built a data ingestion and transformation pipeline to clean, deduplicate, and store property market data in ClickHouse. Reduced data processing latency and enhanced investor decision-making through real-time analytics.",
+    img: "/real-estate-pipeline.svg",
+    iconLists: ["/python.svg", "/clickhouse.svg", "/sql.svg", "/airflow.svg"],
+    link: "/real-estate-data-pipeline",
+  },
+  {
+    id: 5,
+    title: "Forecastable AI-Powered Email Deduplication & Sentiment Analysis",
+    des: "Developed a PostgreSQL-backed system to ingest and deduplicate email conversations across teams, preventing redundant messages from CC chains. Applied NLP models to analyze email tone and predict the likelihood of a sales conversion.",
+    img: "/forecastable-email.svg",
+    iconLists: ["/postgresql.svg", "/huggingface.svg", "/pandas.svg", "/fastapi.svg"],
+    link: "/forecastable-email-analysis",
   },
 ];
 
 export const testimonials = [
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Jared's AI-driven pricing models transformed how we analyze and predict rental market trends. His expertise in data science and machine learning was invaluable.",
+    name: "Melissa Wright",
+    title: "CEO of Vrolio",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Jared developed a forecasting solution that improved our revenue predictions by 40%. His approach to data modeling and automation is top-tier.",
+    name: "David Carter",
+    title: "Lead Data Scientist at Forecastable",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Jared's STR occupancy prediction model significantly improved our revenue projections. We now make better-informed pricing decisions that maximize occupancy and profitability.",
+    name: "Sophia Anderson",
+    title: "Head of Market Analytics, Vrolio",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "The data pipeline Jared built saved us hours of manual processing each week. His ClickHouse implementation gave us near real-time access to rental market data, allowing us to act faster on investment opportunities.",
+    name: "Brian Mitchell",
+    title: "Senior Data Engineer, Vrolio",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Jared's NLP-powered email analysis helped us prioritize high-value leads and streamline sales outreach. His deduplication system eliminated redundancy, improving our efficiency by 30%.",
+    name: "Emily Roberts",
+    title: "VP of Sales, Forecastable",
+  },
+  {
+    quote:
+      "Before Jared's AI integration, our team manually reviewed thousands of emails for lead qualification. Now, with his sales prediction model, we know which prospects to focus on instantly.",
+    name: "Daniel Kim",
+    title: "Sales Operations Manager, Forecastable",
   },
 ];
 
 export const companies = [
   {
     id: 1,
-    name: "cloudinary",
-    img: "/cloud.svg",
-    nameImg: "/cloudName.svg",
+    name: "Vrolio",
+    img: "/vrolio.png",
+    nameImg: "/vrolio-name.svg",
   },
   {
     id: 2,
-    name: "appwrite",
-    img: "/app.svg",
-    nameImg: "/appName.svg",
-  },
-  {
-    id: 3,
-    name: "HOSTINGER",
-    img: "/host.svg",
-    nameImg: "/hostName.svg",
-  },
-  {
-    id: 4,
-    name: "stream",
-    img: "/s.svg",
-    nameImg: "/streamName.svg",
-  },
-  {
-    id: 5,
-    name: "docker.",
-    img: "/dock.svg",
-    nameImg: "/dockerName.svg",
+    name: "Forecastable",
+    img: "/forecastable.svg",
+    nameImg: "/forecastable-name.svg",
   },
 ];
 
 export const workExperience = [
   {
     id: 1,
-    title: "Frontend Engineer Intern",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+    title: "AI Engineer at Vrolio",
+    desc: "Developed predictive models for optimizing rental pricing strategies and market forecasting.",
     className: "md:col-span-2",
-    thumbnail: "/exp1.svg",
+    thumbnail: "/exp-vrolio.svg",
   },
   {
     id: 2,
-    title: "Mobile App Dev - JSM Tech",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
-    className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp2.svg",
-  },
-  {
-    id: 3,
-    title: "Freelance App Dev Project",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
-    className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp3.svg",
-  },
-  {
-    id: 4,
-    title: "Lead Frontend Developer",
-    desc: "Developed and maintained user-facing features using modern frontend technologies.",
+    title: "Data Scientist at Forecastable",
+    desc: "Designed and deployed revenue forecasting models for financial decision-making.",
     className: "md:col-span-2",
-    thumbnail: "/exp4.svg",
+    thumbnail: "/exp-forecastable.svg",
   },
 ];
 
