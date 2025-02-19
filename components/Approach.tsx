@@ -5,54 +5,49 @@ import { CanvasRevealEffect } from "./ui/CanvasRevealEffect";
 
 const Approach = () => {
   return (
-    <section className="w-full py-20">
+        <section className="w-full py-20">
       <h1 className="heading">
-        My <span className="text-purple">approach</span>
+        My <span className="text-purple">AI & Engineering Workflow</span>
       </h1>
-      {/* remove bg-white dark:bg-black */}
+
       <div className="my-20 flex flex-col lg:flex-row items-center justify-center w-full gap-4">
-        {/* add des prop */}
+        {/* AI/ML Research & Strategy */}
         <Card
-          title="Planning & Strategy"
+          title="AI/ML Research & Strategy"
           icon={<AceternityIcon order="Phase 1" />}
-          des="We'll collaborate to map out your website's goals, target audience, 
-          and key functionalities. We'll discuss things like site structure, 
-          navigation, and content requirements."
+          des="Before writing any code, I analyze datasets, define objectives, and plan model architectures. 
+          This phase ensures the best AI approach for the problem."
         >
           <CanvasRevealEffect
             animationSpeed={5.1}
-            // add these classed for the border rounded overflowing -> rounded-3xl overflow-hidden
             containerClassName="bg-emerald-900 rounded-3xl overflow-hidden"
           />
         </Card>
+
+        {/* Model Training & Optimization */}
         <Card
-          title="Development & Progress Update"
+          title="Model Training & Optimization"
           icon={<AceternityIcon order="Phase 2" />}
-          des="Once we agree on the plan, I cue my lofi playlist and dive into
-          coding. From initial sketches to polished code, I keep you updated
-          every step of the way."
+          des="I train models using TensorFlow, PyTorch, or Scikit-Learn. I continuously optimize hyperparameters 
+          and performance to improve accuracy while avoiding overfitting."
         >
           <CanvasRevealEffect
             animationSpeed={3}
-            // change bg-black to bg-pink-900
             containerClassName="bg-pink-900 rounded-3xl overflow-hidden"
             colors={[
-              // change the colors of the
               [255, 166, 158],
               [221, 255, 247],
             ]}
             dotSize={2}
           />
-          {/* Radial gradient for the cute fade */}
-          {/* remove this one */}
-          {/* <div className="absolute inset-0 [mask-image:radial-gradient(400px_at_center,white,transparent)] bg-black/50 dark:bg-black/90" /> */}
         </Card>
+
+        {/* Deployment & Continuous Learning */}
         <Card
-          title="Development & Launch"
+          title="Deployment & Continuous Learning"
           icon={<AceternityIcon order="Phase 3" />}
-          des="This is where the magic happens! Based on the approved design, 
-          I'll translate everything into functional code, building your website
-          from the ground up."
+          des="Once optimized, I deploy models into production via FastAPI or cloud platforms. 
+          I monitor performance and update models based on real-world data."
         >
           <CanvasRevealEffect
             animationSpeed={3}
